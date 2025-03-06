@@ -1,4 +1,3 @@
-!pip install line-bot-sdk
 # -*- coding: utf-8 -*-
 import os
 import requests
