@@ -11,10 +11,10 @@ app = Flask(__name__)
 # 🚀 填入你的 LINE Bot API Key
 
 line_bot_api = LineBotApi('i8DEpkz7jgRNnqRR4mWbPxC5oesrSpXbw2c+5xpzkLASeiBvdtv1uny/4/iXeO4lJygtxMZylP6IlFmQq/Lva/Ftd/H05aGKjTFlHZ3iSZo1sEMmBKRVMTTemEtU0zKtk9S9nqXIGc8CnOWSS80zKAdB04t89/1O/w1cDnyilFU=')
-handler =WebhookHandler ('e95d4cac941b6109c3379f5cb7a7c46c')
+handler = WebhookHandler('e95d4cac941b6109c3379f5cb7a7c46c')
 
 # 🚀 填入你的 Google Places API Key
-GOOGLE_PLACES_API_KEY = os.getenv('AIzaSyA_LHabUDwN3ntZeAq0vR_f5p43S1sXE_k')
+GOOGLE_PLACES_API_KEY = 'AIzaSyA_LHabUDwN3ntZeAq0vR_f5p43S1sXE_k'
 
 # 📍 Google Places API 查詢函數
 def search_restaurants(location):
